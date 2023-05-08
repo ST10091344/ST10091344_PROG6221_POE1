@@ -102,8 +102,10 @@ namespace ST10091344_PROG221_POE1
             EnterRecipeData();
         }
 
+        // Define a method to clear the recipe data
         public void ClearRecipe()
         {
+            // Reset all variables to their initial values
             ingNum = 0;
             ingName = null;
             ingQuant = null;
