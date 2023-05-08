@@ -20,6 +20,7 @@ namespace ST10091344_PROG221_POE1
         // Steps Description
         private string[] steps;
 
+        // Define a constructor to initialize the recipe data
         public Recipe()
         {
             ingNum = 0;
