@@ -5,12 +5,19 @@ namespace ST10091344_PROG221_POE1
     // Define a class to represent a recipe
     class Recipe
     {
-        
+        // Define variables to store the recipe data for:
+
+        // Number of Ingredients
         private int ingNum;
+        // Name of Ingredients
         private string[] ingName;
+        // Quantity of Ingredients
         private double[] ingQuant;
+        // Unit of Measurments 
         private string[] ingUnit;
+        // Number of Steps
         private int stepNum;
+        // Steps Description
         private string[] steps;
 
         public Recipe()
