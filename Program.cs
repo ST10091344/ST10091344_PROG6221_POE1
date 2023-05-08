@@ -120,8 +120,10 @@ namespace ST10091344_PROG221_POE1
         {
             static void Main(string[] args)
             {
+                // Create a new recipe object
                 Recipe recipe = new Recipe();
 
+                // Loop until the user chooses to quit
                 while (true)
                 {
                     Console.WriteLine("Menu:");
