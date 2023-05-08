@@ -2,9 +2,10 @@
 
 namespace ST10091344_PROG221_POE1
 {
+    // Define a class to represent a recipe
     class Recipe
     {
-       
+        
         private int ingNum;
         private string[] ingName;
         private double[] ingQuant;
