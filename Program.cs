@@ -166,6 +166,7 @@ namespace ST10091344_PROG221_POE1
                             break;
                     }
 
+                    // Wait for the user to press a key before continuing
                     Console.WriteLine();
                     Console.WriteLine("Press any key to continue...");
                     Console.ReadKey();
