@@ -85,8 +85,10 @@ namespace ST10091344_PROG221_POE1
             }
         }
 
+        // Define a method to scale the recipe by a given factor
         public void ScaleRecipe(double factor)
         {
+            // Scale the ingredient quantities
             for (int i = 0; i < ingNum; i++)
             {
                 ingQuant[i] *= factor;
