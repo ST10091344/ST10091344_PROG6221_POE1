@@ -95,8 +95,10 @@ namespace ST10091344_PROG221_POE1
             }
         }
 
+        // Define a method to reset the recipe to the original quantities
         public void ResetRecipe()
         {
+            // Reset the ingredient quantities to the original values
             EnterRecipeData();
         }
 
