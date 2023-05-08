@@ -126,6 +126,7 @@ namespace ST10091344_PROG221_POE1
                 // Loop until the user chooses to quit
                 while (true)
                 {
+                    // Display the menu options
                     Console.WriteLine("Menu:");
                     Console.WriteLine("1. Enter Recipe Data");
                     Console.WriteLine("2. Display Recipe");
@@ -134,9 +135,11 @@ namespace ST10091344_PROG221_POE1
                     Console.WriteLine("5. Clear Recipe");
                     Console.WriteLine("6. Quit");
 
+                    // Ask the user to choose an option
                     Console.Write("Enter Option: ");
                     int option = int.Parse(Console.ReadLine());
 
+                    // Perform the selected action
                     switch (option)
                     {
                         case 1:
