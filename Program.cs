@@ -27,15 +27,19 @@ namespace ST10091344_PROG221_POE1
             stepNum = 0;
         }
 
+        // Define a method to ask the user to enter the recipe data
         public void EnterRecipeData()
         {
+            // Ask the user to enter the number of ingredients
             Console.Write("Enter the number of ingredients: ");
             ingNum = int.Parse(Console.ReadLine());
 
+            // Initialize the arrays to store the ingredient data
             ingName = new string[ingNum];
             ingQuant = new double[ingNum];
             ingUnit = new string[ingNum];
 
+            // Ask the user to enter the details for each ingredient
             for (int i = 0; i < ingNum; i++)
             {
                 Console.Write("Enter the name of ingredient " + (i + 1) + ": ");
@@ -48,11 +52,14 @@ namespace ST10091344_PROG221_POE1
                 ingUnit[i] = Console.ReadLine();
             }
 
+            // Ask the user to enter the number of steps
             Console.Write("Enter the number of steps: ");
             stepNum = int.Parse(Console.ReadLine());
 
+            // Initialize the array to store the steps
             steps = new string[stepNum];
 
+            // Ask the user to enter the details for each step
             for (int i = 0; i < stepNum; i++)
             {
                 Console.Write("Enter step description: " + (i + 1) + ": ");
