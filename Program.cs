@@ -115,10 +115,12 @@ namespace ST10091344_PROG221_POE1
         }
 
 
+        // Define the main program class
         class Program
         {
             static void Main(string[] args)
             {
+                // Create a new recipe object
                 Recipe recipe = new Recipe();
 
                 while (true)
