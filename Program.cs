@@ -67,14 +67,17 @@ namespace ST10091344_PROG221_POE1
             }
         }
 
+        // Define a method to display the recipe data
         public void DisplayRecipe()
         {
+            // Display the ingredient data
             Console.WriteLine("Ingredients:");
             for (int i = 0; i < ingNum; i++)
             {
                 Console.WriteLine("- " + ingQuant[i] + " " + ingUnit[i] + " " + ingName[i]);
             }
 
+            // Display the step data
             Console.WriteLine("Steps:");
             for (int i = 0; i < stepNum; i++)
             {
